@@ -81,7 +81,7 @@ const Home = ({ darkMode }: any) => {
                 className="mt-12 md:mt-0 md:w-1/2 flex justify-center"
             >
                 <div className={`relative w-64 h-64 md:w-120 md:h-120 rounded-full overflow-hidden border-4 ${darkMode ? 'border-violet-500 shadow-xl shadow-violet-500/20' : 'border-violet-400 shadow-xl shadow-violet-400/20'}`}>
-                    <img src="src/assets/aesthetic-ps.webp" alt="Paryagdeep Singh" className="w-full h-full object-cover" />
+                    <img src="/aesthetic-ps.webp" alt="Paryagdeep Singh" className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-gradient-to-br from-violet-500/20 to-transparent"></div>
                 </div>
             </motion.div>
