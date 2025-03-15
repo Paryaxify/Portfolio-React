@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Portfolio-React
+=======
+>>>>>>> 8dd826b (add gh-pages, portfolio code)
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -52,3 +58,7 @@ export default tseslint.config({
   },
 })
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> f02a336 (add gh-pages, portfolio code)
+>>>>>>> 8dd826b (add gh-pages, portfolio code)
