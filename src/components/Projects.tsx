@@ -13,7 +13,7 @@ const Projects = ({ darkMode } : any) => {
             >
                 <h2 className="text-3xl md:text-4xl font-bold">
                     <span className="text-violet-500">&lt;</span>
-                    Projects (Page not updated)
+                    Projects
                     <span className="text-violet-500">/&gt;</span>
                 </h2>
                 <div className="w-24 h-1 bg-violet-500 mx-auto mt-4"></div>
@@ -39,9 +39,9 @@ const Projects = ({ darkMode } : any) => {
                 />
 
                 <ProjectCard
-                    title="Media Stream Platform"
+                    title="Jellyfin Server"
                     description="A responsive media streaming platform with adaptive video quality and user engagement features. Supports different video formats and aspect ratios."
-                    technologies={["React", "Django", "PostgreSQL", "FFmpeg", "AWS S3"]}
+                    technologies={["Prowlarr", "Sonarr", "Radarr", "FlareSolverr", "QbitTorrent", "Jellyfin"]}
                     image="/api/placeholder/400/250"
                     darkMode={darkMode}
                     delay={0.4}

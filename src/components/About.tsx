@@ -73,7 +73,7 @@ const About = ({ darkMode } : any) => {
                             <SkillBadge label="Python" percentage={90} darkMode={darkMode} />
                             <SkillBadge label="TypeScript" percentage={85} darkMode={darkMode} />
                             <SkillBadge label="JavaScript" percentage={90} darkMode={darkMode} />
-                            <SkillBadge label="Go" percentage={75} darkMode={darkMode} />
+                            <SkillBadge label="Go" percentage={60} darkMode={darkMode} />
                             <SkillBadge label="C++" percentage={70} darkMode={darkMode} />
                             <SkillBadge label="HTML/CSS" percentage={95} darkMode={darkMode} />
                         </div>
@@ -82,35 +82,35 @@ const About = ({ darkMode } : any) => {
                     <div className="mb-8">
                         <h4 className="font-semibold mb-3">Frameworks & Libraries</h4>
                         <div className="flex flex-wrap gap-3">
-                            <SkillBadge label="React" percentage={92} darkMode={darkMode} />
-                            <SkillBadge label="Next.js" percentage={85} darkMode={darkMode} />
-                            <SkillBadge label="Django" percentage={88} darkMode={darkMode} />
+                            <SkillBadge label="React" percentage={93} darkMode={darkMode} />
+                            <SkillBadge label="Next.js" percentage={90} darkMode={darkMode} />
+                            <SkillBadge label="Django" percentage={90} darkMode={darkMode} />
                             <SkillBadge label="Angular" percentage={80} darkMode={darkMode} />
-                            <SkillBadge label="Flask" percentage={78} darkMode={darkMode} />
-                            <SkillBadge label="Node.js" percentage={85} darkMode={darkMode} />
+                            <SkillBadge label="Flask" percentage={75} darkMode={darkMode} />
+                            <SkillBadge label="Node.js" percentage={70} darkMode={darkMode} />
                         </div>
                     </div>
 
                     <div className="mb-8">
                         <h4 className="font-semibold mb-3">Tools & Platforms</h4>
                         <div className="flex flex-wrap gap-3">
-                            <SkillBadge label="Linux" percentage={88} darkMode={darkMode} />
-                            <SkillBadge label="Docker" percentage={82} darkMode={darkMode} />
-                            <SkillBadge label="Git" percentage={90} darkMode={darkMode} />
-                            <SkillBadge label="PostgreSQL" percentage={85} darkMode={darkMode} />
-                            <SkillBadge label="Jenkins" percentage={78} darkMode={darkMode} />
+                            <SkillBadge label="Linux" percentage={90} darkMode={darkMode} />
+                            <SkillBadge label="Docker" percentage={85} darkMode={darkMode} />
+                            <SkillBadge label="Git" percentage={70} darkMode={darkMode} />
+                            <SkillBadge label="PostgreSQL" percentage={65} darkMode={darkMode} />
+                            <SkillBadge label="Jenkins" percentage={60} darkMode={darkMode} />
                             <SkillBadge label="Vim" percentage={75} darkMode={darkMode} />
                         </div>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <h4 className="font-semibold mb-3">Languages (Human)</h4>
                         <div className="flex flex-wrap gap-3">
                             <SkillBadge label="English" percentage={95} darkMode={darkMode} />
                             <SkillBadge label="Punjabi" percentage={100} darkMode={darkMode} />
                             <SkillBadge label="Hindi" percentage={98} darkMode={darkMode} />
                         </div>
-                    </div>
+                    </div> */}
                 </motion.div>
             </div>
         </section>

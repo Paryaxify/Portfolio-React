@@ -27,10 +27,10 @@ const Home = ({ darkMode }: any) => {
                 </p>
 
                 <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-                    <TechBadge label="React" icon="⚛️" darkMode={darkMode} />
+                    <TechBadge label="Next.js" icon="▲" darkMode={darkMode} />
                     <TechBadge label="TypeScript" icon="📘" darkMode={darkMode} />
                     <TechBadge label="Django" icon="🐍" darkMode={darkMode} />
-                    <TechBadge label="Next.js" icon="▲" darkMode={darkMode} />
+                    <TechBadge label="Angular" icon="🅰️" darkMode={darkMode} />
                     <TechBadge label="Node.js" icon="🟢" darkMode={darkMode} />
                 </div>
 
